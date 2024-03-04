@@ -25,4 +25,4 @@ mongoose.connect(URL).then(()=>{
 }).catch(error => console.log(error));
 
 
-app.use("/", route);
+app.use("/api", route);
